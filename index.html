@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap"
+            rel="stylesheet">
+        <title>Temperature Converter</title>
+    </head>
+
+    <body>
+        <main>
+            <div>
+                <h1 class="txt-bg">Temperature Converter</h1>
+                <p class="txt-sm">Enter the temperature in one of the text boxes and press the <b>Convert</b> button:
+                </p>
+                <section>
+                    <label for="celsius" id="c" class="txt-md">Celsius(°C): </label>
+                    <input type="text" name="celsius" id="celsius">
+                    <button type="submit" id="subC">Convert</button>
+                </section>
+                <section>
+                    <label for="fahrenheit" id="f" class="txt-md">Fahrenheit(°F): </label>
+                    <input type="text" name="fahrenheit" id="fahrenheit">
+                    <button type="submit" id="subF">Convert</button>
+                </section>
+                <section>
+                    <label for="kelvin" id="k" class="txt-md">Kelvin(K): </label>
+                    <input type="text" name="kelvin" id="kelvin">
+                    <button type="submit" id="subK">Convert</button>
+                </section>
+                <section>
+                    <label for="rankine" id="r" class="txt-md">Rankine(°R): </label>
+                    <input type="text" name="rankine" id="rankine">
+                    <button type="submit" id="subR">Convert</button>
+                </section>
+                <button id="reset">Reset</button>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+
+</html>
